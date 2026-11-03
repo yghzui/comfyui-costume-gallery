@@ -17,7 +17,7 @@ class CostumeGallery:
     RETURN_NAMES = ('image', 'width', 'height', 'costume_id', 'description', 'keywords_en')
     FUNCTION = 'load_costume'
     CATEGORY = 'image/Costume Gallery'
-    DESCRIPTION = '本地中文服装图库：1407套服装、分类筛选、中英文搜索，输出完整PNG原图。'
+    DESCRIPTION = '本地中文服装图库：3296套服装、分类筛选、中英文搜索，输出完整PNG原图。'
 
     @classmethod
     def VALIDATE_INPUTS(cls, costume_id):
